@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lojinha - Turismo Iporanga</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f0f0f0; }
+    header { background: #006400; color: white; padding: 1rem; text-align: center; }
+    main { padding: 2rem; }
+    .produto { background: white; padding: 1rem; border-radius: 10px; margin-bottom: 1rem; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .produto img { max-width: 100%; height: auto; border-radius: 10px; }
+    button { background: #228B22; color: white; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #006400; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lojinha de Iporanga</h1>
+    <p>Leve um pedacinho da sua aventura pra casa!</p>
+  </header>
+
+  <main>
+    <div class="produto">
+      <h2>Camiseta PETAR Aventura</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Camiseta PETAR">
+      <p>100% algodão, estampada com as belezas do parque PETAR.</p>
+      <button onclick="comprar()">Comprar - R$ 49,90</button>
+    </div>
+
+    <div class="produto">
+      <h2>Chaveiro Caverna Encantada</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Chaveiro Caverna">
+      <p>Souvenir especial das cavernas de Iporanga.</p>
+      <button onclick="comprar()">Comprar - R$ 14,90</button>
+    </div>
+
+    <div class="produto">
+      <h2>Caneca Eu ❤️ Iporanga</h2>
+      <img src="https://via.placeholder.com/300x200" alt="Caneca Iporanga">
+      <p>Ideal pra lembrar do seu passeio com aquele cafézinho.</p>
+      <button onclick="comprar()">Comprar - R$ 29,90</button>
+    </div>
+  </main>
+
+  <script>
+    function comprar() {
+      alert('Essa função de compra ainda está em desenvolvimento.');
+    }
+  </script>
+</body>
+</html>
